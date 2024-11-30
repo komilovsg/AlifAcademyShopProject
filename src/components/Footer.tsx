@@ -87,7 +87,7 @@ const Footer = () => {
             <a
               key={social.name}
               href={social.url}
-              className="text-gray-600 hover:text-black"
+              className="text-gray-600 hover:text-black hover:text-white"
             >
               {social.icon}
             </a>
